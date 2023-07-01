@@ -1,0 +1,137 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/* -------------------- */
+/*     APP CONTAINER    */
+/* -------------------- */
+
+
+#appContainer {
+    max-width: 300px;
+    /* margin: auto; */
+    padding: 20px 30px;
+    border: 1px solid rgb(32,178,218);
+    background-color: rgba(72,32,218,0.3);
+    border-radius: 5px;
+    box-shadow: 8px 8px 12px rgba(0,0,0,0.3);
+}
+
+/* -------------------- */
+/*        HEADER        */
+/* -------------------- */
+header {
+    width: 100.6%;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    text-align: center;
+    border-radius: 3px 3px 0 0;
+    margin: 0 0 10px;
+    padding: 5px 0;
+    color: #4820da;
+}
+
+/* -------------------- */
+/*   LIST CONTAINER    */
+/* -------------------- */
+
+#listContainer {
+    border: 1px solid rgb(32,178,218);
+    width: 300px;
+    height: 300px;
+    overflow-y: auto;
+    border-radius: 3px;
+    background-color: #fff;
+}
+/* -------------------- */
+/*         LIST         */
+/* -------------------- */
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 5px;
+}
+
+/* -------------------- */
+/*      LIST ITEMS      */
+/* -------------------- */
+    li {
+        font-family: 'Poppins', sans-serif;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+        background: linear-gradient(to top right,rgba(72,32,218,0.22), rgba(32,178,218,.22));
+        padding: 5px 5px;
+        cursor: pointer;
+        word-wrap: break-word;
+        hyphens: auto;
+    }
+
+    li:not(li:last-of-type) {
+        margin-bottom: 10px;
+    }
+
+
+/* -------------------- */
+/*   INPUT CONTAINER    */
+/* -------------------- */
+
+#inputContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* -------------------- */
+/*     INPUT FIELD      */
+/* -------------------- */
+
+input[type='text'] {
+    font-family: 'Poppins', sans-serif;
+    color: #4820da;
+    width: 96.5%;
+    height: 25px;
+    margin: 10px 0 5px;
+    padding: 3px 5px;
+    border: 1.3px solid rgba(72,32,218,0.8);
+    border-radius: 3px;
+}
+
+input[type='text']::placeholder {
+    font-weight: 200;
+    font-style: italic;
+    font-size: 12px;
+}
+
+/* -------------------- */
+/*        BUTTON        */
+/* -------------------- */
+
+input[type='button'] {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    width: 100.5%;
+    padding: 8px 7px;
+    background-color: rgba(72,32,218,0.8);
+    border-radius: 3px;
+    border: 1px solid goldenrod;
+    color: #fff;
+}
+
+/* -------------------- */
+/*  JAVASCRIPT CLASSES  */
+/* -------------------- */
+
+.line-through {
+    text-decoration: line-through;
+}
